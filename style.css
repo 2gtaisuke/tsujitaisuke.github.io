@@ -10,6 +10,7 @@ h1, h2, h3, h4, p {
 }
 
 body {
+    font-family: 'Hiragino Kaku Gothic Pro','ヒラギノ角ゴ Pro W3','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
     background-color: aliceblue;
     color: #333;
     font-size: 18px;
@@ -62,6 +63,9 @@ ul {
 }
 
 @media screen and (max-width: 768px) {
+    body {
+        font-size: 16px;
+    }
     .main {
         padding: 10px 15px;
         width: auto;
